@@ -19,7 +19,7 @@ It allows users to generate secure passwords based on customizable criteria, wit
   - Prevents generating passwords when no options are selected
 
 ## Live Demo
-[Click Me🚀](https://temmydee-dev.github.io/Mini-PASSWORD-GENERATOR-System/)
+[CLICK ME🚀](https://temmydee-dev.github.io/Mini-PASSWORD-GENERATOR-System/)
 
 
 ## Built With
