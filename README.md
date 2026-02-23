@@ -19,7 +19,7 @@ It allows users to generate secure passwords based on customizable criteria, wit
   - Prevents generating passwords when no options are selected
 
 ## Live Demo
-[text](https://temmydee-dev.github.io/Mini-PASSWORD-GENERATOR-System/)
+[Click Me🚀](https://temmydee-dev.github.io/Mini-PASSWORD-GENERATOR-System/)
 
 
 ## Built With
@@ -31,12 +31,11 @@ It allows users to generate secure passwords based on customizable criteria, wit
 No frameworks or external dependencies required.
 
 ## Project Structure
-PassVault/
-│
-├── index.html (Main HTML structure)
-├── style.css (Styling light/dark themes, layout, UI)
-├── script.js Password generation & interactions
-└── README.md Project documentation
+- PassVault/
+    - index.html (Main HTML structure)
+    - style.css (Styling light/dark themes, layout, UI)
+    - script.js Password generation & interactions
+    - README.md Project documentation
 
 ## How It Works
 1. User selects password length and character types.
