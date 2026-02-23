@@ -69,6 +69,12 @@ em {
     color: var(--togglesliderColor);
 }
 
+/* Text highlight color */
+::selection {
+  color: #fff;
+  background: #28334c;
+}
+
 /*  THEME VARIABLES */
 @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 
@@ -80,7 +86,7 @@ em {
     --togglesliderColor: #111;
 
     --filter1: drop-shadow(0px 0px 0px #ffffff) drop-shadow(20px 8px 50px #c3c5c8);
-    --filter2: drop-shadow(0px 0px 0px #ffffff) drop-shadow(4px 4px 8px #c3c5c8);
+    --filter2: drop-shadow(0px 0px 0px #ffffff) drop-shadow(0px 0px 4px #c3c5c8);
     --filter3: drop-shadow(-2px -2px 4px #ffffff) drop-shadow(2px 2px 4px #c3c5c8);
 }
 
@@ -91,8 +97,8 @@ em {
     --roundcolor: #1f1f1f;
     --togglesliderColor: #ffffff;
 
-    --filter1: drop-shadow(0px 0px 0px #2a2a2a) drop-shadow(20px 8px 50px  #000000);
-    --filter2: drop-shadow(0px 0px 0px#2a2a2a) drop-shadow(8px 4px 8px #000000);
+    --filter1: drop-shadow(0px 0px 0px #2a2a2a) drop-shadow(20px 8px 50px  #5f5f5f4f);
+    --filter2: drop-shadow(0px 0px 0px#2a2a2a) drop-shadow(0px 0px 4px #00000088);
     --filter3: drop-shadow(-2px -2px 4px #2a2a2a) drop-shadow(2px 2px 4px #000000);
 }
 
@@ -116,15 +122,16 @@ body {
     width: 360px;
     max-width: 95%;
     background: var(--bg-color);
-    border-radius: 16px;
+    border-radius: 15px;
     filter: var(--filter1);
     margin: 100px auto;
+    border: 1px solid #28334c;
 }
 
 /* RESULT BOX */
 .result-container {
     background: var(--bg-color);
-    border-radius: 14px;
+    border-radius: 5px;
     filter: var(--filter2);
     display: flex;
     align-items: center;
@@ -137,6 +144,7 @@ body {
     text-align: center;
     margin-bottom: 30px;
     position: relative;
+    border: 1px solid #28334c;
 }
 
 /* TEXTAREA */
@@ -150,6 +158,25 @@ textarea {
     outline: none;
     resize: none;
     text-align: center;
+}
+
+#Passwordlength{
+    background: var(--bg-color);
+    color: var(--color);
+    border: 1px solid #28334c;
+    border-radius: 1px;
+    text-align: center;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;  
+  accent-color: #282b4c; /* Changes the color when checked */
+  border: 2px solid #555;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+  margin-right: 5%;
 }
 
 /* BUTTONS */
@@ -174,6 +201,7 @@ textarea {
 .btn:hover {
     filter: var(--filter3);
     transform: translateY(-2px);
+    border: 1px solid #28334c;
 }
 
 .btn:active {
